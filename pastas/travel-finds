@@ -1,1 +1,59 @@
-
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Finds</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff0f5;
+      color: #333;
+    }
+    header {
+      background-color: #ffc0cb;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+    }
+    .container {
+      padding: 1rem;
+    }
+    .produto {
+      background: #fff;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .produto img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .produto a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #ff69b4;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>Travel Finds</header>
+  <div class="container">
+    <div class="produto">
+      <p>Exemplo de produto</p>
+      <img src="https://via.placeholder.com/300x200.png?text=Imagem+do+Produto" alt="Produto Exemplo">
+      <br>
+      <a href="#" target="_blank">Ver na Amazon</a>
+    </div>
+    <!-- Adicione mais produtos aqui -->
+  </div>
+</body>
+</html>
